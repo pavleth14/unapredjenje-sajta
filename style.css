@@ -1,0 +1,47 @@
+body {
+  width: 90%;
+  margin: 20px auto;
+  background-color: lightgray;
+}
+
+nav{
+  float: left;
+  width: 20%;
+  background-color: blue;
+  height: 100vh;
+  padding: 40px 20px;
+  box-sizing: border-box;
+
+}
+
+nav a {
+  display: block;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+
+nav a:hover{
+  color:black;
+  border: 1px solid black;
+}
+
+section{
+  padding: 40px;
+  margin-bottom: 20px;
+  background-color: lightblue;
+  height: 100vh;
+  float: left;
+  width: 75%;
+  box-sizing: border-box;
+}
+
+.beetwen{
+  float: left;
+  width: 5%;
+  background-color: darkgray;
+  height: 100vh;
+}
